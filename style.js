@@ -200,14 +200,14 @@ function unique(){
     var five = parseFloat(num5.value);
     var six = parseFloat(num6.value);
     
-    output.innerHTML= one + ", ";
+    output.innerHTML= one;
 
 
     //////////////////////////////////////
 
     
     if(two !== one){
-         output.innerHTML += two + ", ";
+         output.innerHTML += ", " + two;
     }
     
     
@@ -215,25 +215,25 @@ function unique(){
     //////////////////////////////////////
 
     if(three !== one && three !== two){
-        output.innerHTML += three + ", ";
+        output.innerHTML += ", " + three;
     }
 
 
     //////////////////////////////////////
 
     if(four !== one && four !== two && four !== three){
-        output.innerHTML += four + ", ";    }
+        output.innerHTML += ", " + four;    }
 
         //////////////////////////////////////
 
     if(five !== one && five !== two && five !== three && five !== four){
-        output.innerHTML += five + ", ";
+        output.innerHTML += ", " + five;
     }
 
     //////////////////////////////////////
 
     if(six !== one && six !== two && six !== three && six !== four && six !== five){
-        output.innerHTML += six;
+        output.innerHTML += ", " + six;
     }
 
 
