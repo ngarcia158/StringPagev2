@@ -1,0 +1,10 @@
+html{
+    padding: auto;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+button{
+    font-size: 15px;
+    margin: 7px 10px 7px 10px;
+}
