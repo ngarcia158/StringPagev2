@@ -1,10 +1,27 @@
 html{
     padding: auto;
-    margin: auto;
     align-content: center;
     text-align: center;
+
+   
+}
+
+
+body{
+    background-color: #248DE2;
 }
 button{
-    font-size: 15px;
+    font-size: 17px;
     margin: 7px 10px 7px 10px;
+    border: 2px outset #535B5E;
+    background-color: #E94F37;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p#list{
+    font-size: 20px;
+    padding-bottom: 22px;
 }
